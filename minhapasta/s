@@ -1,0 +1,19 @@
+import os
+
+# Excluir o arquivo "meuarquivo.txt"
+os.remove("meuarquivo.txt")
+print("Arquivo 'meuarquivo.txt' removido!")
+
+
+import os
+
+# Excluir a pasta "minhapasta" (somente se estiver vazia)
+os.rmdir("minhapasta")
+print("Pasta 'minhapasta' removida!")
+
+
+import shutil
+
+# Excluir a pasta "minhapasta" e todo o conteúdo que ela tiver
+shutil.rmtree("minhapasta")
+print("Pasta 'minhapasta' e todo o seu conteúdo foram removidos!")

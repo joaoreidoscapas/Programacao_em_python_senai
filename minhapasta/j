@@ -1,0 +1,6 @@
+import os
+
+# Renomear a pasta "meupasta" para "minhapasta"
+os.rename("meupasta", "minhapasta")
+print("Pasta renomeada para 'minhapasta'!")
+

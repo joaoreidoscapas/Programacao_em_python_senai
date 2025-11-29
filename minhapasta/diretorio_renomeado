@@ -1,0 +1,7 @@
+import os
+
+if not os.path.exists("meupasta"):
+    os.mkdir("meupasta")
+    print("Pasta 'meupasta' criada!")
+else:
+    print("A pasta 'meupasta' já existe!")
